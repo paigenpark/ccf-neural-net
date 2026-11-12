@@ -205,6 +205,15 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Project data and outputs (HFD data needs registration and must not be committed)
+data/*
+!data/.gitkeep
+models/
+
+# OS / R clutter
+.DS_Store
+.Rhistory
+
 # Ruff stuff:
 .ruff_cache/
 
